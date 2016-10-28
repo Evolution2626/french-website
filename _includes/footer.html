@@ -1,0 +1,31 @@
+<footer>
+    <h5>We love our sponsors!</h5>
+    <table>
+        <tbody>
+            <tr>
+                <td><a href="http://www.mi-integration.com/mi_integration/FR/PAGE_Implantation.awp?P1=1"><img src="/assets/img/sponsors/MI.png"></a></td>
+            </tr>
+            <tr>
+                <td><a href="http://www.bombardier.com/fr/accueil.html"><img class="sponsor-large" src="/assets/img/sponsors/bombardier.png"></a></td>
+            </tr>
+            <tr>
+                <td><a href="http://www.seminaire-sherbrooke.qc.ca/fondation/seminaire-sherbrooke/index.html"><img src="/assets/img/sponsors/afcea.svg"></a></td>
+                <td><a href="http://www.seminaire-sherbrooke.qc.ca/"><img class="sponsor-large" src="/assets/img/sponsors/seminaire.png"></a></td>
+                <td><a href="http://www.robotiquefirstquebec.org/"><img src="/assets/img/sponsors/booz-allen-hamilton.svg"></a></td>
+            </tr>
+            <tr>
+                <td><a href="http://www.brp.com/fr-ca/homepage"><img src="/assets/img/sponsors/brp.png"></a></td>
+                <td><a href="http://www.niedner.com/defaultfr.aspx"><img src="/assets/img/sponsors/niedner.png"></a></td>
+            </tr>
+        </tbody>
+    </table>
+    <p>Based off of <a href="http://1418.team">Team 1418's website</a>.</p>
+    <p><a href="https://github.com/Evolution2626/evolution2626.github.io">View site source on GitHub</a></p>
+    <a href="http://www.firstinspires.org"><img class="first-logo" src="/assets/img/first.png"></a>
+</footer>
+<script src="/js/scripts.js"></script>
+{% if page.scripts %}
+    {% for script in page.scripts %}
+<script src="/js/{{ script }}.js"></script>
+    {% endfor %}
+{% endif %}
