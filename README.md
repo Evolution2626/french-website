@@ -1,5 +1,5 @@
 # Team 2626 Website
-This repository contains the content that is served on [evolution2626.com](http://evolution2626.com/).
+This repository contains the content that is served on [evolution2626.org](http://evolution2626.org/).
 
 This website uses the Jekyll templating system and is hosted as a GitHub page out of this repository.
 
